@@ -34,7 +34,7 @@ known_third_party = ["pydantic","semver","setuptools"]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.10"
 kedro = ">=0.18.7,<0.19"
-snowflake-snowpark-python = {git = "https://github.com/snowflakedb/snowpark-python", extras = ["pandas"]}
+snowflake-snowpark-python = {git = "https://github.com/snowflakedb/snowpark-python.git", extras = ["pandas"], branch = "main" }
 backoff = "^2.2.1"
 cloudpickle = ">=1.6.0,<=2.0.0"
 zstandard = "^0.20.0"
